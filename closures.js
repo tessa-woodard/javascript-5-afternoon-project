@@ -112,7 +112,7 @@ function motivation( firstname, lastname ) {
   var welcomeText = "You're doing awesome, keep it up";
 
   function message(){
-  return `${welcomeText} + ' ' + firstname + ' ' + lastname.`
+  return `${welcomeText} ${firstname} ${lastname}.`
   }
   return message;
 }
